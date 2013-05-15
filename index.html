@@ -1,0 +1,25 @@
+---
+layout: default
+title: ホーム
+---
+
+
+
+<div id="home">
+<h1>iPhoneプログラミング勉強会京都のサイトへようこそ</h1>
+<p>
+この勉強会は2009年より京産大の荻原、安田が主宰しています。<br />
+現在は毎月1回、株式会社はてなのセミナールームで開催しています。<br />
+過去の勉強会については<a href='http://kitaney.jp/~kitani/event/iphonekyoto/' target='_blank'>こちら</a>をご覧ください。
+参加資格は特にありません。（主宰は京産大の教員ですが、参加者は京産大の学生だけでなく他学の学生や社会人もいます）<br />
+<b>勉強会のネタは常に募集中です！！！！</b>（こんな話が聞きたい、俺のiPhoneプログラミングテクを披露したい etc…）<br />
+画面下部に載っている安田 or Pasta-Kまでお気軽に連絡くださいませ。<br />
+今季の勉強会予定は下記の通りです。
+</p>
+  <h1>最新の勉強会情報</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
