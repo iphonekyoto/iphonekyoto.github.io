@@ -1,3 +1,4 @@
 name: iPhoneプログラミング勉強会京都
 pygments: true
 permalink: /blog/:categories/:title.html
+markdonw: kramdown
